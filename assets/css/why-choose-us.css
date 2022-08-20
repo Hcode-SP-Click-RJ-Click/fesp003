@@ -1,0 +1,66 @@
+main .why-choose-us {
+  background-color: #10191E;
+  text-align: center;
+  padding: 50px 0;
+}
+main .why-choose-us h2 {
+  font-size: 1.6em;
+  margin: 0;
+}
+main .why-choose-us .reasons {
+  max-width: 300px;
+  margin: 50px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+main .why-choose-us .reasons .reason-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+main .why-choose-us .reasons .reason-item .icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #252A2D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .why-choose-us .reasons .reason-item.active {
+  border-bottom: 1px solid #8D9035;
+}
+main .why-choose-us .reasons .reason-item.active .icon {
+  background-color: #8D9035;
+}
+main .why-choose-us .reasons .reason-item.active h3 {
+  color: #8D9035;
+}
+
+@media (min-width: 768px) {
+  main .why-choose-us h2 {
+    font-size: 2.5em;
+  }
+  main .why-choose-us .reasons {
+    max-width: 700px;
+    flex-direction: row;
+  }
+}
+@media (min-width: 1200px) {
+  main .why-choose-us .reasons {
+    max-width: 1100px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  main .why-choose-us .reasons .reason-item {
+    width: 300px;
+  }
+}
+@media (min-width: 1400px) {
+  main .why-choose-us .reasons {
+    max-width: 1300px;
+  }
+}
+
+/*# sourceMappingURL=why-choose-us.css.map */

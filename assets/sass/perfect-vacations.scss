@@ -1,0 +1,43 @@
+main {
+    .perfect-vacations {
+        padding: 50px 0;
+        .vacation-images {
+            display: flex;
+            justify-content: space-around;
+            div {
+                img {
+                    width: 100%;
+                    margin-top: 10px;
+                }
+                &:nth-child(1) {
+                    width: 220px;
+                }
+                &:nth-child(2) {
+                    width: 150px;
+                }
+            }
+        }
+        .vacation-text {
+            max-width: 300px;
+            margin: 0 auto;
+            h2 {
+                font-size: 1.6em;
+                margin: 0;
+                margin-top: 50px;
+            }
+            .custom-hr {
+                width: 180px;
+                height: 2px;
+                margin: 0;
+                margin-top: 10px;
+                border-color: #BFBC37;
+                background-color: #BFBC37;
+            }
+            p {
+                margin: 0;
+                margin-top: 20px;
+                font-size: 1em;
+            }
+        }
+    }
+}

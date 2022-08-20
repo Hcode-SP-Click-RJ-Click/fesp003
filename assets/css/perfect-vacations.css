@@ -1,0 +1,41 @@
+main .perfect-vacations {
+  padding: 50px 0;
+}
+main .perfect-vacations .vacation-images {
+  display: flex;
+  justify-content: space-around;
+}
+main .perfect-vacations .vacation-images div img {
+  width: 100%;
+  margin-top: 10px;
+}
+main .perfect-vacations .vacation-images div:nth-child(1) {
+  width: 220px;
+}
+main .perfect-vacations .vacation-images div:nth-child(2) {
+  width: 150px;
+}
+main .perfect-vacations .vacation-text {
+  max-width: 300px;
+  margin: 0 auto;
+}
+main .perfect-vacations .vacation-text h2 {
+  font-size: 1.6em;
+  margin: 0;
+  margin-top: 50px;
+}
+main .perfect-vacations .vacation-text .custom-hr {
+  width: 180px;
+  height: 2px;
+  margin: 0;
+  margin-top: 10px;
+  border-color: #BFBC37;
+  background-color: #BFBC37;
+}
+main .perfect-vacations .vacation-text p {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 1em;
+}
+
+/*# sourceMappingURL=perfect-vacations.css.map */

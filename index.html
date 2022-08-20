@@ -8,114 +8,176 @@
     <title>Projeto SP Click</title>
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <img src="./assets/images/sp-click-logo.png" alt="Logo do SP Click" />
+  <header>
+    <div class="header-content">
+        <img src="./assets/images/sp-click-logo.png" alt="Logo do SP Click" />
 
-            <div class="search show-tablet">
-                <img src="./assets/icons/search.svg" alt="Lupa" />
-                <input type="text" placeholder="Pesquisar..." />
+        <div class="search show-tablet">
+            <img src="./assets/icons/search.svg" alt="Lupa" />
+            <input type="text" placeholder="Pesquisar..." />
+        </div>
+
+        <svg class="show-mobile" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"/></svg>
+
+        <nav class="nav-desktop show-desktop">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">O Projeto</a></li>
+                <li><a href="#">Lugares Populares</a></li>
+                <li><a href="#">Teatros</a></li>
+                <li><a href="#">Turismo</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="menu-links">
+        <a href="#" class="close-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z"/></svg>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">O Projeto</a></li>
+                <li><a href="#">Lugares Populares</a></li>
+                <li><a href="#">Teatros</a></li>
+                <li><a href="#">Turismo</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+  </header>
+  <section id="hero">
+    <div class="destak">
+      <div class="title">
+        <h1>Beco do Batman</h1>
+        <h2>Os grafites mais irados de SAMPA estão aqui!</h2>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section class="popular-places">
+      <div class="section-title">
+        <h2>Lugares Populares</h2>
+
+        <h4>
+          Museu, galerias, pontos turísticos, esportes, restaurantes, entre outros.
+        </h4>
+      </div>
+
+      <div class="places">
+        <div class="individual-place">
+          <div class="description">
+            <div class="name">
+              <img src="/assets/icons/pin_icon.svg" alt="Ícone de pin">
+              <h3>Theatro Municipal</h3>
+
+            </div>
+            <p>Projeto pelo arquiteto Ramos de Azevedo no estilo arquitetônico eclético, inspirado na Ópera de Paris e inaugurado em 1911.</p>
+          </div>
+        </div>
+
+        <div class="individual-place">
+          <div class="description">
+            <div class="name">
+              <img src="/assets/icons/pin_icon.svg" alt="Ícone de pin">
+              <h3>Neo Química Arena</h3>
+
             </div>
 
-            <svg class="show-mobile" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"/></svg>
-
-            <nav class="nav-desktop show-desktop">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">O Projeto</a></li>
-                    <li><a href="#">Lugares Populares</a></li>
-                    <li><a href="#">Teatros</a></li>
-                    <li><a href="#">Turismo</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
+            <p>Estádio de futebol localizado no bairro de Itaquera, palco do jogo de abertura da Copa do Mundo de 2014.</p>
+          </div>
         </div>
 
-        <div class="menu-links">
-            <a href="#" class="close-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z"/></svg>
-            </a>
+        <div class="individual-place">
+          <div class="description">
+            <div class="name">
+              <img src="/assets/icons/pin_icon.svg" alt="Ícone de pin">
+              <h3>Jardim Botânico</h3> 
 
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">O Projeto</a></li>
-                    <li><a href="#">Lugares Populares</a></li>
-                    <li><a href="#">Teatros</a></li>
-                    <li><a href="#">Turismo</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section id="hero">
-        <div class="destak">
-            <div class="title">
-                <h1>Beco do Batman</h1>
-                <h2>Os grafites mais irados de SAMPA estão aqui!</h2>
             </div>
+
+            <p>Fundado em 1928, o local tem o objetivo de mostrar o quanto a natureza é importante, e enfatizar cada vez mais o cuidado que se deve ter com a biodiversidade.</p>
+          </div>
         </div>
+
+        <div class="individual-place">
+          <div class="description">
+            <div class="name">
+              <img src="/assets/icons/pin_icon.svg" alt="Ícone de pin">
+              <h3>Figueira Rubaiyat</h3>
+
+            </div>
+            <p>Restaurante icônico que foi construído em volta de uma árvore centenária e tombada pelo pratimônio cultural da cidade, que dá nome ao local.</p>
+          </div>
+        </div>
+      </div>
     </section>
+    <section class="why-choose-us">
+      <h2>Razão para nos escolher</h2>
 
-    <main>
-      <section class="popular-places">
-        <div class="section-title">
-          <h2>Lugares Populares</h2>
-  
-          <h4>
-            Museu, galerias, pontos turísticos, esportes, restaurantes, entre outros.
-          </h4>
-        </div>
+      <div class="reasons">
 
-        <div class="places">
-          <div class="individual-place">
-            <div class="description">
-              <div class="name">
-                <img src="/assets/icons/pin_icon.svg" alt="Ícone de pin">
-                <h3>Theatro Municipal</h3>
-
-              </div>
-              <p>Projeto pelo arquiteto Ramos de Azevedo no estilo arquitetônico eclético, inspirado na Ópera de Paris e inaugurado em 1911.</p>
-            </div>
+        <div class="reason-item active">
+          <div class="icon">
+            <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32.1615 55.5208C32.3872 55.5208 32.6467 55.4644 32.9401 55.3516C33.2336 55.2387 33.4705 55.092 33.6511 54.9115L56.4688 32.026C57.0556 31.4392 57.4957 30.7734 57.7891 30.0286C58.0825 29.2839 58.2292 28.5278 58.2292 27.7604C58.2292 26.9931 58.0825 26.2257 57.7891 25.4583C57.4957 24.691 57.0556 24.0139 56.4688 23.4271L44.2813 11.2396C43.6945 10.6528 43.0174 10.2127 42.25 9.91927C41.4827 9.62587 40.7153 9.47917 39.948 9.47917C39.1806 9.47917 38.4245 9.62587 37.6797 9.91927C36.9349 10.2127 36.2691 10.6528 35.6823 11.2396L34.4636 12.4583L39.948 18.0104C40.5348 18.6424 41.0539 19.3759 41.5052 20.2109C41.9566 21.046 42.1823 21.9601 42.1823 22.9531C42.1823 24.6684 41.5165 26.1806 40.1849 27.4896C38.8533 28.7986 37.3299 29.4531 35.6146 29.4531C34.4862 29.4531 33.5495 29.2839 32.8047 28.9453C32.0599 28.6068 31.3716 28.1215 30.7396 27.4896L25.7969 22.5469L13.5417 34.8021C13.316 35.0278 13.158 35.2648 13.0677 35.513C12.9775 35.7613 12.9323 36.0208 12.9323 36.2917C12.9323 36.8785 13.1242 37.3637 13.5079 37.7474C13.8915 38.1311 14.3768 38.3229 14.9636 38.3229C15.2344 38.3229 15.494 38.2552 15.7422 38.1198C15.9905 37.9844 16.2049 37.8264 16.3855 37.6458L25.7292 28.3021L28.573 31.1458L19.2969 40.4219C19.0712 40.6476 18.9132 40.8958 18.823 41.1667C18.7327 41.4375 18.6875 41.7083 18.6875 41.9792C18.6875 42.5208 18.8907 42.9948 19.2969 43.401C19.7032 43.8073 20.1771 44.0104 20.7188 44.0104C20.9896 44.0104 21.2492 43.954 21.4974 43.8411C21.7457 43.7283 21.9601 43.5816 22.1407 43.401L31.4844 34.0573L34.3282 36.901L25.0521 46.1771C24.8716 46.3576 24.7249 46.5946 24.612 46.888C24.4992 47.1814 24.4427 47.4635 24.4427 47.7344C24.4427 48.276 24.6459 48.75 25.0521 49.1563C25.4584 49.5625 25.9323 49.7656 26.474 49.7656C26.7448 49.7656 26.9931 49.7205 27.2188 49.6302C27.4445 49.5399 27.6702 49.3819 27.8959 49.1563L37.2396 39.8125L40.0834 42.6563L30.7396 52C30.5139 52.2257 30.3559 52.474 30.2657 52.7448C30.1754 53.0156 30.1303 53.2639 30.1303 53.4896C30.1303 54.1215 30.3108 54.6181 30.6719 54.9792C31.033 55.3403 31.5296 55.5208 32.1615 55.5208ZM32.1615 59.5833C30.6719 59.5833 29.3403 59.0304 28.1667 57.9245C26.9931 56.8186 26.2934 55.4531 26.0678 53.8281C24.533 53.6024 23.2466 52.9705 22.2084 51.9323C21.1702 50.8941 20.5382 49.6076 20.3125 48.0729C18.7778 47.8472 17.5026 47.204 16.487 46.1432C15.4714 45.0825 14.8507 43.8073 14.625 42.3177C12.9549 42.092 11.5782 41.4149 10.4948 40.2865C9.4115 39.158 8.86983 37.8038 8.86983 36.224C8.86983 35.4566 9.01653 34.6892 9.30994 33.9219C9.60334 33.1545 10.0434 32.4774 10.6302 31.8906L25.7969 16.724L33.2448 24.1719C33.6059 24.533 34.0009 24.8151 34.4297 25.0182C34.8585 25.2214 35.2761 25.3229 35.6823 25.3229C36.2691 25.3229 36.8221 25.0634 37.3412 24.5443C37.8603 24.0252 38.1198 23.4722 38.1198 22.8854C38.1198 22.6146 38.0408 22.3099 37.8829 21.9714C37.7249 21.6328 37.4653 21.283 37.1042 20.9219L27.4219 11.2396C26.8351 10.6528 26.158 10.2127 25.3907 9.91927C24.6233 9.62587 23.8559 9.47917 23.0886 9.47917C22.3212 9.47917 21.5651 9.62587 20.8204 9.91927C20.0756 10.2127 19.4098 10.6528 18.823 11.2396L8.53129 21.5312C7.89935 22.1632 7.45924 22.829 7.21098 23.5286C6.96271 24.2283 6.81601 25.0069 6.77087 25.8646C6.72574 26.7674 6.89501 27.6363 7.27869 28.4714C7.66237 29.3064 8.12504 30.0625 8.66671 30.7396L5.75525 33.651C4.85247 32.658 4.11896 31.4618 3.55473 30.0625C2.99049 28.6632 2.70837 27.2413 2.70837 25.7969C2.70837 24.4427 2.96792 23.145 3.48702 21.9036C4.00612 20.6623 4.73962 19.5677 5.68754 18.6198L15.9115 8.39583C16.9046 7.40278 18.033 6.66927 19.2969 6.19531C20.5608 5.72135 21.8473 5.48438 23.1563 5.48438C24.4653 5.48438 25.7405 5.72135 26.9818 6.19531C28.2231 6.66927 29.3403 7.40278 30.3334 8.39583L31.5521 9.61458L32.7709 8.39583C33.7639 7.40278 34.8924 6.66927 36.1563 6.19531C37.4202 5.72135 38.7066 5.48438 40.0157 5.48438C41.3247 5.48438 42.5999 5.72135 43.8412 6.19531C45.0825 6.66927 46.1997 7.40278 47.1927 8.39583L59.3125 20.5156C60.3056 21.5087 61.0504 22.6372 61.5469 23.901C62.0434 25.1649 62.2917 26.4514 62.2917 27.7604C62.2917 29.0694 62.0434 30.3446 61.5469 31.5859C61.0504 32.8273 60.3056 33.9444 59.3125 34.9375L36.4948 57.7552C35.908 58.342 35.2422 58.7934 34.4974 59.1094C33.7526 59.4254 32.974 59.5833 32.1615 59.5833Z" fill="#BFBC37"/>
+            </svg>
           </div>
-
-          <div class="individual-place">
-            <div class="description">
-              <div class="name">
-                <img src="/assets/icons/pin_icon.svg" alt="Ícone de pin">
-                <h3>Neo Química Arena</h3>
-
-              </div>
-
-              <p>Estádio de futebol localizado no bairro de Itaquera, palco do jogo de abertura da Copa do Mundo de 2014.</p>
-            </div>
-          </div>
-
-          <div class="individual-place">
-            <div class="description">
-              <div class="name">
-                <img src="/assets/icons/pin_icon.svg" alt="Ícone de pin">
-                <h3>Jardim Botânico</h3> 
-
-              </div>
-
-              <p>Fundado em 1928, o local tem o objetivo de mostrar o quanto a natureza é importante, e enfatizar cada vez mais o cuidado que se deve ter com a biodiversidade.</p>
-            </div>
-          </div>
-
-          <div class="individual-place">
-            <div class="description">
-              <div class="name">
-                <img src="/assets/icons/pin_icon.svg" alt="Ícone de pin">
-                <h3>Figueira Rubaiyat</h3>
-
-              </div>
-              <p>Restaurante icônico que foi construído em volta de uma árvore centenária e tombada pelo pratimônio cultural da cidade, que dá nome ao local.</p>
-            </div>
+          <div class="reason-title">
+            <h3>Time de Profissionais</h3>
+            <p>Nosso time está pronto para auxiliá-lo para conhecer os pontos turísticos de São Paulo.</p>
           </div>
         </div>
-      </section>
-    </main>
+
+        <div class="reason-item">
+          <div class="icon">
+            <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32.7708 48.2761C33.493 48.2761 34.1024 48.0279 34.5989 47.5313C35.0954 47.0348 35.3437 46.4254 35.3437 45.7032C35.3437 44.981 35.0954 44.3716 34.5989 43.8751C34.1024 43.3786 33.493 43.1303 32.7708 43.1303C32.0486 43.1303 31.4392 43.3786 30.9427 43.8751C30.4461 44.3716 30.1979 44.981 30.1979 45.7032C30.1979 46.4254 30.4461 47.0348 30.9427 47.5313C31.4392 48.0279 32.0486 48.2761 32.7708 48.2761ZM30.401 38.3907H34.3958C34.3958 37.2171 34.5425 36.145 34.8359 35.1746C35.1293 34.2041 36.0434 33.0869 37.5781 31.823C38.9774 30.6494 39.9704 29.4983 40.5572 28.3699C41.1441 27.2414 41.4375 26.0001 41.4375 24.6459C41.4375 22.2536 40.6588 20.3351 39.1015 18.8907C37.5442 17.4463 35.4791 16.724 32.9062 16.724C30.6944 16.724 28.7421 17.277 27.0494 18.3829C25.3567 19.4888 24.1267 21.0122 23.3593 22.9532L26.9479 24.3074C27.4444 23.0435 28.1892 22.0617 29.1822 21.3621C30.1753 20.6624 31.3489 20.3126 32.7031 20.3126C34.2378 20.3126 35.4791 20.7301 36.427 21.5652C37.375 22.4003 37.8489 23.4723 37.8489 24.7813C37.8489 25.7744 37.5555 26.711 36.9687 27.5912C36.3819 28.4714 35.5243 29.3855 34.3958 30.3334C33.0416 31.507 32.0373 32.6694 31.3828 33.8204C30.7283 34.9714 30.401 36.4949 30.401 38.3907ZM32.5 59.5834C28.7986 59.5834 25.3003 58.8725 22.0052 57.4506C18.71 56.0287 15.8324 54.0878 13.3724 51.6277C10.9123 49.1676 8.97131 46.29 7.54944 42.9949C6.12756 39.6997 5.41663 36.2015 5.41663 32.5001C5.41663 28.7536 6.12756 25.2327 7.54944 21.9376C8.97131 18.6424 10.9123 15.7761 13.3724 13.3386C15.8324 10.9011 18.71 8.97144 22.0052 7.54956C25.3003 6.12769 28.7986 5.41675 32.5 5.41675C36.2465 5.41675 39.7673 6.12769 43.0625 7.54956C46.3576 8.97144 49.2239 10.9011 51.6614 13.3386C54.0989 15.7761 56.0286 18.6424 57.4505 21.9376C58.8723 25.2327 59.5833 28.7536 59.5833 32.5001C59.5833 36.2015 58.8723 39.6997 57.4505 42.9949C56.0286 46.29 54.0989 49.1676 51.6614 51.6277C49.2239 54.0878 46.3576 56.0287 43.0625 57.4506C39.7673 58.8725 36.2465 59.5834 32.5 59.5834ZM32.5 55.5209C38.9097 55.5209 44.3489 53.2753 48.8177 48.7839C53.2864 44.2926 55.5208 38.8647 55.5208 32.5001C55.5208 26.0904 53.2864 20.6511 48.8177 16.1824C44.3489 11.7136 38.9097 9.47925 32.5 9.47925C26.1354 9.47925 20.7074 11.7136 16.2161 16.1824C11.7248 20.6511 9.47913 26.0904 9.47913 32.5001C9.47913 38.8647 11.7248 44.2926 16.2161 48.7839C20.7074 53.2753 26.1354 55.5209 32.5 55.5209Z" fill="#BFBC37"/>
+            </svg>
+          </div>
+          <div class="reason-title">
+            <h3>Suporte 24 Horas</h3>
+            <p>Caso tenha alguma dúvida sobre um ponto turístico, você pode entrar em contato conosco a qualquer momento.</p>
+          </div>
+        </div>
+
+        <div class="reason-item">
+          <div class="icon">
+            <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 49.5V45.9115C0 44.151 0.947917 42.7292 2.84375 41.6458C4.73958 40.5625 7.17708 40.0208 10.1562 40.0208C10.7431 40.0208 11.2847 40.0321 11.7812 40.0547C12.2778 40.0773 12.7743 40.1337 13.2708 40.224C12.9097 40.9913 12.6389 41.77 12.4583 42.5599C12.2778 43.3498 12.1875 44.1962 12.1875 45.099V49.5H0ZM16.25 49.5V45.099C16.25 42.1649 17.7509 39.7951 20.7526 37.9896C23.7543 36.184 27.6701 35.2812 32.5 35.2812C37.375 35.2812 41.3021 36.184 44.2812 37.9896C47.2604 39.7951 48.75 42.1649 48.75 45.099V49.5H16.25ZM52.8125 49.5V45.099C52.8125 44.1962 52.7335 43.3498 52.5755 42.5599C52.4175 41.77 52.158 40.9913 51.7969 40.224C52.2934 40.1337 52.7899 40.0773 53.2865 40.0547C53.783 40.0321 54.3021 40.0208 54.8438 40.0208C57.9132 40.0208 60.3733 40.5625 62.224 41.6458C64.0747 42.7292 65 44.151 65 45.9115V49.5H52.8125ZM32.5 39.3438C28.8889 39.3438 25.9549 39.8854 23.6979 40.9688C21.441 42.0521 20.3125 43.4288 20.3125 45.099V45.4375H44.6875V45.0312C44.6875 43.4062 43.5703 42.0521 41.3359 40.9688C39.1016 39.8854 36.1562 39.3438 32.5 39.3438ZM10.1562 37.9896C8.84722 37.9896 7.73003 37.5269 6.80469 36.6016C5.87934 35.6762 5.41667 34.559 5.41667 33.25C5.41667 31.941 5.87934 30.8238 6.80469 29.8984C7.73003 28.9731 8.84722 28.5104 10.1562 28.5104C11.4653 28.5104 12.5825 28.9731 13.5078 29.8984C14.4332 30.8238 14.8958 31.941 14.8958 33.25C14.8958 34.559 14.4332 35.6762 13.5078 36.6016C12.5825 37.5269 11.4653 37.9896 10.1562 37.9896ZM54.8438 37.9896C53.5347 37.9896 52.4175 37.5269 51.4922 36.6016C50.5668 35.6762 50.1042 34.559 50.1042 33.25C50.1042 31.941 50.5668 30.8238 51.4922 29.8984C52.4175 28.9731 53.5347 28.5104 54.8438 28.5104C56.1528 28.5104 57.27 28.9731 58.1953 29.8984C59.1207 30.8238 59.5833 31.941 59.5833 33.25C59.5833 34.559 59.1207 35.6762 58.1953 36.6016C57.27 37.5269 56.1528 37.9896 54.8438 37.9896ZM32.5 33.25C30.2431 33.25 28.3247 32.4601 26.7448 30.8802C25.1649 29.3003 24.375 27.3819 24.375 25.125C24.375 22.8229 25.1649 20.8932 26.7448 19.3359C28.3247 17.7786 30.2431 17 32.5 17C34.8021 17 36.7318 17.7786 38.2891 19.3359C39.8464 20.8932 40.625 22.8229 40.625 25.125C40.625 27.3819 39.8464 29.3003 38.2891 30.8802C36.7318 32.4601 34.8021 33.25 32.5 33.25ZM32.5 21.0625C31.3715 21.0625 30.4123 21.4462 29.6224 22.2135C28.8325 22.9809 28.4375 23.9514 28.4375 25.125C28.4375 26.2535 28.8325 27.2127 29.6224 28.0026C30.4123 28.7925 31.3715 29.1875 32.5 29.1875C33.6736 29.1875 34.6441 28.7925 35.4115 28.0026C36.1788 27.2127 36.5625 26.2535 36.5625 25.125C36.5625 23.9514 36.1788 22.9809 35.4115 22.2135C34.6441 21.4462 33.6736 21.0625 32.5 21.0625Z" fill="#BFBC37"/>
+            </svg>              
+          </div>
+          <div class="reason-title">
+            <h3>Milhares de Clientes</h3>
+            <p>Já ajudamos milhares de pessoas a conhecer melhor a capital paulista e teremos o maior prazer em ajudar você também!</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <div class="perfect-vacations">
+      <div class="vacation-images">
+        <div>
+          <img src="./assets/images/museu-paulista.png" alt="Museu Paulista" />
+          <img src="./assets/images/ponte-estaiada.png" alt="Ponte Estaiada" />
+        </div>
+        <div>
+          <img src="./assets/images/masp.png" alt="MASP" />
+          <img src="./assets/images/avenida-paulista.png" alt="Avenida Paulista" />
+        </div>
+      </div>
+      <div class="vacation-text">
+        <h2>Aqui fazemos umas férias perfeitas para você!</h2>
+
+        <hr class="custom-hr" />
+
+        <p>São Paulo, centro financeiro do Brasil, está entre as cidades mais populosas do mundo, com diversas instituições culturais e uma rica tradição arquitetônica. Há locais simbólicos como o Museu de Arte de São Paulo (MASP), o Museu Paulista, a Ponte Estaiada e famosa Avenida Paulista Seja qual for o seu estilo, a cidade tem muito a oferecer: conhecimento, tendências, memórias, cores, sabores. Que tal aproveitar suas férias conhecendo os vários locais dessa cidade incrível?</p>
+      </div>
+    </div>
+  </main>
 
 </body>
 </html>
