@@ -1,0 +1,53 @@
+section#hero {
+  height: 100vh;
+  background-image: url("/assets/images/beco-do-batman.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+section#hero::before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  color: #FFF;
+  background-image: linear-gradient(#161618, rgba(22, 22, 24, 0.5647058824));
+}
+section#hero .destak {
+  width: 100%;
+  height: calc(100vh - 100px);
+  position: absolute;
+  bottom: 0;
+}
+section#hero .destak .title {
+  color: #FFF;
+  margin-top: 150px;
+  text-align: center;
+}
+section#hero .destak .title h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 0;
+}
+section#hero .destak .title h2 {
+  font-family: "Lato-Light";
+  font-size: 1.2em;
+}
+
+@media (min-width: 768px) {
+  section#hero .destak .title h1 {
+    font-size: 4em;
+  }
+  section#hero .destak .title h2 {
+    font-size: 1.2em;
+  }
+}
+@media (min-width: 1200px) {
+  section#hero .destak .title h1 {
+    font-size: 5em;
+  }
+  section#hero .destak .title h2 {
+    font-size: 1.5em;
+  }
+}
+
+/*# sourceMappingURL=hero.css.map */

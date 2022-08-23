@@ -1,0 +1,42 @@
+main {
+    .testimonials {
+        padding: 50px 0;
+        .testimonial-item {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            img {
+                width: 100%;
+                margin-top: 30px;
+            }
+            &.right {
+                text-align: right;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    main {
+        .testimonials {
+            .testimonial-item {
+                flex-direction: row;
+                img {
+                    width: 50%;
+                    margin-top: 0;
+                    margin-left: 50px;
+                }
+                p {
+                    font-size: 1.3em;
+                }
+                &.right {
+                    flex-direction: row-reverse;
+                    img {
+                        margin-right: 50px;
+                        margin-left: unset;
+                    }
+                }
+            }
+        }
+    }
+}

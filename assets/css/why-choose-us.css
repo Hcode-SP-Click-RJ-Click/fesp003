@@ -18,6 +18,13 @@ main .why-choose-us .reasons .reason-item {
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
+  cursor: pointer;
+}
+main .why-choose-us .reasons .reason-item .reason-title h3 {
+  margin: 15px 0;
+}
+main .why-choose-us .reasons .reason-item .reason-title p {
+  margin: 20px 0;
 }
 main .why-choose-us .reasons .reason-item .icon {
   width: 100px;

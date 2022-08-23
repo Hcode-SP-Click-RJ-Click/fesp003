@@ -1,0 +1,100 @@
+.popular-places {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  max-width: 300px;
+}
+.popular-places .section-title {
+  text-align: center;
+  margin: 100px 0;
+}
+.popular-places .section-title h2 {
+  font-size: 1.8em;
+}
+.popular-places .section-title h4 {
+  font-weight: lighter;
+  font-size: 1em;
+}
+.popular-places .places {
+  margin: 100px 0;
+}
+.popular-places .places .individual-place {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  margin-top: 60px;
+  cursor: pointer;
+}
+.popular-places .places .individual-place .description {
+  height: 160px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(16, 25, 30, 0.5019607843);
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.popular-places .places .individual-place .description .name {
+  display: flex;
+}
+.popular-places .places .individual-place:nth-child(1) {
+  background: url("/assets/images/theatro.png") no-repeat;
+}
+.popular-places .places .individual-place:nth-child(2) {
+  background: url("/assets/images/Arena.png") no-repeat;
+}
+.popular-places .places .individual-place:nth-child(3) {
+  background: url("/assets/images/Natureza.png");
+}
+.popular-places .places .individual-place:nth-child(4) {
+  background: url("/assets/images/Restaurantes.png");
+}
+
+@media (min-width: 768px) {
+  .popular-places {
+    max-width: 700px;
+    width: 100%;
+  }
+  .popular-places .section-title h2 {
+    font-size: 2.5em;
+  }
+  .popular-places .section-title h4 {
+    font-size: 1.5em;
+  }
+  .popular-places .places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .popular-places .places .individual-place {
+    width: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  .popular-places {
+    max-width: 1100px;
+  }
+  .popular-places .places {
+    justify-content: space-around;
+  }
+  .popular-places .places .individual-place {
+    width: 400px;
+  }
+}
+@media (min-width: 1400px) {
+  .popular-places {
+    max-width: 1300px;
+  }
+  .popular-places .section-title h2 {
+    font-size: 2.5em;
+  }
+  .popular-places .section-title h4 {
+    font-size: 2em;
+  }
+  .popular-places .places .individual-place {
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=popular-places.css.map */

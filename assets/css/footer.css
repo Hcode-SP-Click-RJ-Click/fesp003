@@ -1,0 +1,108 @@
+footer {
+  background: url("/assets/images/estrada.png") no-repeat;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+footer::before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  color: #FFF;
+  background-image: linear-gradient(#161618, rgba(22, 22, 24, 0.5647058824));
+  z-index: 1;
+}
+footer .footer-info, footer .copyright {
+  z-index: 2;
+}
+footer .footer-info {
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-info .logo {
+  align-self: center;
+}
+footer .footer-info .links-and-contact {
+  margin-top: 100px;
+  width: 100%;
+}
+footer .footer-info .links-and-contact .footer-links li {
+  margin-top: 10px;
+}
+footer .footer-info .links-and-contact h3 {
+  font-size: 1.6em;
+}
+footer .footer-info .links-and-contact .contact {
+  margin-top: 40px;
+}
+footer .footer-info .social-media {
+  margin: 40px 0;
+}
+footer .footer-info .social-media a img {
+  height: 50px;
+}
+footer .copyright {
+  width: 100%;
+  height: 100px;
+  border-top: 2px solid #CCC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  footer {
+    background: url("/assets/images/estrada-desktop.png") no-repeat;
+    background-position: right;
+    background-color: #10191E;
+  }
+  footer::before {
+    content: unset;
+  }
+  footer .footer-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: unset;
+    margin-bottom: 50px;
+  }
+  footer .footer-info .logo img {
+    width: 70%;
+  }
+  footer .footer-info .links-and-contact {
+    display: flex;
+    justify-content: space-around;
+    margin-top: unset;
+  }
+  footer .footer-info .links-and-contact .contact {
+    margin-top: unset;
+    margin-left: 50px;
+  }
+  footer .footer-info .social-media {
+    margin: unset;
+  }
+}
+@media (min-width: 1200px) {
+  footer .footer-info {
+    max-width: 1100px;
+  }
+  footer .footer-info .logo img {
+    width: 100%;
+  }
+  footer .footer-info .links-and-contact .contact {
+    margin-left: unset;
+  }
+  footer .footer-info .social-media {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

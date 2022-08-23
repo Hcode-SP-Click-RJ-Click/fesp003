@@ -1,0 +1,38 @@
+main .testimonials {
+  padding: 50px 0;
+}
+main .testimonials .testimonial-item {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+main .testimonials .testimonial-item img {
+  width: 100%;
+  margin-top: 30px;
+}
+main .testimonials .testimonial-item.right {
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  main .testimonials .testimonial-item {
+    flex-direction: row;
+  }
+  main .testimonials .testimonial-item img {
+    width: 50%;
+    margin-top: 0;
+    margin-left: 50px;
+  }
+  main .testimonials .testimonial-item p {
+    font-size: 1.3em;
+  }
+  main .testimonials .testimonial-item.right {
+    flex-direction: row-reverse;
+  }
+  main .testimonials .testimonial-item.right img {
+    margin-right: 50px;
+    margin-left: unset;
+  }
+}
+
+/*# sourceMappingURL=testimonials.css.map */

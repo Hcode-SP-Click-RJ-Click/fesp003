@@ -17,6 +17,15 @@ main {
                 flex-direction: column;
                 align-items: center;
                 margin-top: 50px;
+                cursor: pointer;
+                .reason-title {
+                    h3 {
+                        margin: 15px 0;
+                    }
+                    p {
+                        margin: 20px 0;
+                    }
+                }
                 .icon {
                     width: 100px;
                     height: 100px;

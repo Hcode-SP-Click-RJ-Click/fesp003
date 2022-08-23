@@ -1,0 +1,119 @@
+footer {
+    background: url('/assets/images/estrada.png') no-repeat;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    &::before {
+        width: 100%;
+        height: 100%;
+        content: "";
+        position: absolute;
+        color: #FFF;
+        background-image: linear-gradient(#161618, #16161890);
+        z-index: 1;
+    }
+    .footer-info, .copyright {
+        z-index: 2;
+    }
+    .footer-info {
+        margin: 0 auto;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        .logo {
+            align-self: center;
+        }
+        .links-and-contact {
+            margin-top: 100px;
+            width: 100%;
+            .footer-links {
+                li {
+                    margin-top: 10px;
+                }
+            }
+            h3 {
+                font-size: 1.6em;
+            }
+            .contact {
+                margin-top: 40px;
+            }
+        }
+        .social-media {
+            margin: 40px 0;
+            a {
+                img {
+                    height: 50px;
+                }
+            }
+        }
+    }
+    .copyright {
+        width: 100%;
+        height: 100px;
+        border-top: 2px solid #CCC;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    footer {
+        background: url('/assets/images/estrada-desktop.png') no-repeat;
+        background-position: right;
+        background-color: #10191E;
+        &::before {
+            content: unset;
+        }
+        .footer-info {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: flex-start;
+            margin-top: unset;
+            margin-bottom: 50px;
+            .logo {
+                img {
+                    width: 70%;
+                }
+            }
+            .links-and-contact {
+                display: flex;
+                justify-content: space-around;
+                margin-top: unset;
+                .contact {
+                    margin-top: unset;
+                    margin-left: 50px;
+                }
+            }
+            .social-media {
+                margin: unset;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    footer {
+        .footer-info {
+            max-width: 1100px;
+            .logo {
+                img {
+                    width: 100%;
+                }
+            }
+            .links-and-contact {
+                .contact {
+                    margin-left: unset;
+                }
+            }
+            .social-media {
+                display: flex;
+            }
+        }
+    }
+}
