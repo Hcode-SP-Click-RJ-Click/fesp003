@@ -17,6 +17,9 @@ section#hero .destak {
   height: calc(100vh - 100px);
   position: absolute;
   bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 section#hero .destak .title {
   color: #FFF;
@@ -32,6 +35,34 @@ section#hero .destak .title h2 {
   font-family: "Lato-Light";
   font-size: 1.2em;
 }
+section#hero .destak .links {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(19, 28, 33, 0.5019607843);
+  overflow: auto;
+  padding: 0 25px;
+}
+section#hero .destak .links .link-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  min-width: 200px;
+  cursor: pointer;
+}
+section#hero .destak .links .link-item.active {
+  border-bottom: 2px solid #BFBC37;
+}
+section#hero .destak .links .link-item.active svg path {
+  fill: #BFBC37;
+}
+section#hero .destak .links .link-item h3 {
+  font-size: 1em;
+}
+section#hero .destak .links .link-item h4 {
+  font-size: 0.8em;
+}
 
 @media (min-width: 768px) {
   section#hero .destak .title h1 {
@@ -39,6 +70,11 @@ section#hero .destak .title h2 {
   }
   section#hero .destak .title h2 {
     font-size: 1.2em;
+  }
+}
+@media (min-width: 992px) {
+  section#hero .destak .links {
+    justify-content: space-around;
   }
 }
 @media (min-width: 1200px) {
